@@ -1,0 +1,361 @@
+/* Inicio do documento css globais */
+
+/* 
+
+
+#define     COR_LARANJA_TRIANGULO    #E94B22
+#define     COR_AZUL_TRIANGULO       #0E5CA4
+#define     COR_LITTLE_CIZA          #F2F3F5
+
+
+*/
+
+/* inicio */
+
+
+/*    /* keyframes */
+
+    /* @keyframes mov
+    {
+        from
+        {
+            margin: 0px;
+            background-color: #E94B22;
+            color: #E94B22;
+            border-style: hidden;
+        }
+
+        to
+        {
+            margin-left: 450px;
+            background-color: #0e5ca4;
+            color: white;
+            border-style: initial;
+            /* Antigo sistema de animações do botão de login */
+        /* }
+    }
+ */
+
+
+/* Fim */
+
+#historia-triangulo-principal
+{
+    text-align: center;
+    color: #09447a;
+    /* background-color: #cccdcf; */
+    margin: 0px -20px;
+}
+
+#historia-triangulo-texto
+{
+    color: black;
+    padding: 10px;
+    margin: 0 150px;
+    margin-top: 15px;
+    margin-bottom: -8px;
+    background-color: rgb(235, 235, 235);
+    box-shadow: 2px 2px 2px 5px rgb(65, 61, 61);
+}
+
+
+#conteudo-principal-aluno
+{
+    text-align: center;
+}
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* IDs */
+
+#texto-principal a
+{
+    cursor:default;
+}
+
+#imagem-logo
+{
+    padding-left: 527px;
+    margin-bottom: 20px;
+    image-rendering: pixelated;   
+    image-rendering: optimizeQuality;   
+    background-color: white;
+}
+
+#historia
+{
+    color: #0e5ca4;
+    cursor: text;
+}
+
+#area-aluno
+{
+    color: #0e5ca4;
+    cursor: text;
+}
+
+#galeria
+{
+    color: #0e5ca4;
+    cursor: text;
+}
+
+#fale-conosco
+{
+    color: #0e5ca4;
+    cursor: text;
+}
+
+#secretaria-virtual
+{
+    color: #0e5ca4;
+    cursor: text;
+}
+
+#rodape a
+{
+    text-decoration: none;
+    color: white;
+}
+
+#rodape p
+{
+    text-align: center;
+    color: white;
+}
+
+#rodape
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: -20px;
+    padding: 10px;
+    color: white;
+    background: #0e5ca4;
+}
+
+#secretaria-virtual-conteudo
+{
+    border-radius: 8px;
+    margin: 20px;
+    background-color: #0e5ca4;
+}
+
+#cabecalho-span
+{
+    margin-left: 465px;
+    font-size: larger;
+}
+
+
+#cor-cabecalho-virtual
+{
+    padding: 10px;
+    color: white;
+}
+
+#inputs-secretaria
+{
+    border-radius: 8px;
+    background-color: #E94B22;
+    box-shadow: #E94B22;
+}
+
+#inputs-secretaria input
+{
+    border-radius: 10px;
+    width: 20%;
+    height: 80%;
+    margin-left: 450px;
+    padding-left: 50px;
+    padding-bottom: 12px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    /* background-color: #F2F3F5; */
+    border: none;
+    outline: 0px;
+}
+
+input.email
+{
+    background-repeat: no-repeat;
+    background-position: 7px; 
+    background-image: url(../Imagens/pessoinha.png);
+}
+
+input.senha
+{
+    background-repeat: no-repeat;
+    background-position: 7px;
+    background-image: url(../Imagens/cadeado-sem-fundo.png);
+}
+
+input#botao-login
+{
+    animation-name: mov;
+    animation-duration: 10s;
+    transition-duration: 1s;
+    text-shadow: #F2F3F5;
+    padding: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: -20px;
+    width: 24.2%;
+    border: 2px solid #0e5ca4; 
+    color: white;
+    background-color: blue;
+}
+
+input#botao-login:hover
+{
+    transition-duration: 1s;
+    color: #E94B22;
+    background-color: white;
+    cursor: pointer;
+}
+
+input#botao-login:active
+{
+    transition-duration: 0.5s;
+    color: white;
+    background-color: blue;
+
+}
+
+#titulo-principal
+{
+    background-color: #0e5ca4;
+    color: white;
+    text-align: center;
+    padding: 2px;
+    margin: 15px 20px;
+}
+
+#texto-principal
+{
+    font-size: larger;
+    letter-spacing: 2px;
+    background-color: #F2F3F5;
+    float: left;
+    width: 60%;
+    margin: 20px;
+    padding: 10px;
+    text-align: left;
+}
+
+
+#barra-direita
+{
+    /* clear: both; */
+    padding: 8px;
+    float: right;
+    width: 25%;
+    height: 10%;
+    background-color: #F2F3F5;
+    margin: 18px;
+}
+
+#barra-direita a
+{
+    text-decoration: none;
+    /* text-transform: ; */
+    color: #E94B22;
+    text-align: right;
+    font-size: medium;
+}
+
+#barra-direita
+{
+    color: #0e5ca4;
+}
+
+#mao:hover
+{
+    background-color: white; 
+}
+
+#mao
+{
+    margin-bottom: 10px;
+}
+
+
+#fim-conteudo
+{
+    clear: both;
+}
+
+#fim-conteudo h3
+{
+    clear: both;
+    text-align: center;
+    background-color: #0e5ca4;
+    color: white;
+}
+
+/* Fim IDS */
+
+/* Classes */
+
+.laranja-triangulo
+{
+    color: #E94B22;
+}
+
+
+/* Fim Classes */
+
+/* Tags */
+
+body
+{
+    background-color: white;
+}
+
+li a
+{
+    text-decoration: none;
+    color: #E94B22;
+    font-size: medium;
+}
+li a:hover
+{
+    transition-duration: 1s;
+    color: #0e5ca4;
+
+}
+
+li a:active
+{
+    color: blue;
+    cursor: grabbing;
+}
+
+body
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    margin: 0px;
+    padding: 20px;
+}
+
+ul
+{
+    list-style-type: none;
+    margin: 5px;
+    padding: 0px;
+    display: flex;
+    background-color: #F2F3F5;
+}
+
+li
+{
+    margin-left: 175px;
+    padding: 10px;
+}
+
+
+/* Fim Tags */

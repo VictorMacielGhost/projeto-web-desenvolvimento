@@ -1,0 +1,4 @@
+-- Projetos de autoria de Victor Maciel, desde setembro de 2020, referentes a HTML/CSS (Ou web desenvolvimento,  generalizando) --
+-- não modifique os arquivos, pois nao irei altera-los -- 
+-- Nenhum dos projetos acima foi de verdade para o ar, um ou dois estao disponibilizados na url <https://victorsitesamerica.000webhostapp.com> --
+-- Para utilizar o git push add, o nome do repositorio se chama "Principal" -- 

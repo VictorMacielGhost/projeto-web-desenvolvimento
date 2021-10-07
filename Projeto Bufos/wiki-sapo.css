@@ -1,0 +1,49 @@
+/*Limpar padroes*/
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.texto{
+    font-family:arial,helvetica;
+    font-size: larger;
+}
+#cabecalho{
+    background-color: chartreuse;
+    text-align: center;
+    padding: 20px;
+}
+#links a{
+    color: rgb(1, 185, 1);
+    margin-left: 5%;
+    font-size: 0.9em;
+    
+}
+#background{
+    background-color: rgb(231, 231, 231);
+}
+
+#siga-nos{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 0.8em;
+    padding: 1px;
+    /*background-color: rgb(255, 255, 230);*/
+    margin: 40%;
+    padding: 1%;
+}
+
+p{
+    background-color: rgb(236, 236, 236);
+    text-align: center;
+}
+h2{
+    text-align: center;
+    color: darkgreen;
+    padding: 50px;
+    padding-bottom: 10px;
+}

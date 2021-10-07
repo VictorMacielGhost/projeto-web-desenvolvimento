@@ -1,0 +1,68 @@
+/*====================================Inicio Da Folha de CSS========================== */
+
+/*INDEX.HTML*/
+#taskbar{
+
+			border: 8px solid red;
+		}
+
+		.texto {
+			font-family: "Lucida Sans Unicode", "Symbol", "Tahoma" ;
+		}
+
+		#FAQ {
+
+			border: 4px solid black;
+		}
+
+		#bordafaq {
+
+			border: 2px solid red;
+		}
+
+/*PAGINAS DE PRODUTO.HTML*/
+
+#textotopo{
+
+			font-family: Lucida Sans Unicode, Symbol, Tahoma;
+
+			color: red;
+
+			border: 5px double red;
+
+
+		}
+
+		#taskbar{
+
+			border: 8px solid red;
+		}
+
+		#comprar{
+
+			border: 16px solid green;
+		}
+
+		.texto {
+			font-family: Lucida Sans Unicode, Symbol, Tahoma;
+		}
+
+		#besp { 
+
+			border: 3px solid black
+		}
+
+	#animacao {
+				color:red;
+	animation: bg 2s infinite;
+
+
+	}
+	@keyframes bg {
+	50% {
+		color: gold;
+
+	}
+
+
+

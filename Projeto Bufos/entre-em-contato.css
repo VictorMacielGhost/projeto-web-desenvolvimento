@@ -1,0 +1,86 @@
+/*Limpar padroes*/
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.texto{
+    font-family:arial,helvetica;
+    font-size: larger;
+}
+#cabecalho{
+    background-color: chartreuse;
+    text-align: center;
+    padding: 20px;
+}
+#links a{
+    color: rgb(1, 185, 1);
+    margin-left: 5%;
+    font-size: 0.9em;
+}
+
+#links a:hover{
+    text-decoration: underline;
+}
+
+#background{
+    background-color: rgb(231, 231, 231);
+}
+
+#siga-nos{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 0.8em;
+    padding: 1px;
+    /*background-color: rgb(255, 255, 230);*/
+    margin: 40%;
+    padding: 1%;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+#formulario{
+    align-content: center;
+    text-align: center;
+}
+
+fieldset{
+    margin: 50px;
+    padding: 2px;
+    border: 1px solid #ccc;
+    background: #f8f8f8;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+label{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input{
+    width: 250px;
+    border: none;
+    margin: 4px;
+    padding: 5px;
+}
+
+textarea{
+    width: 200px;
+    height: 100px;
+}
+
+#botao{
+    color: darkgreen;
+    padding: 5px 25px;
+    background-color: #33db00;
+    border: #33db00;
+    cursor: pointer;
+    background: linear-gradient(to bottom, lime, lightgreen);
+}
+input:hover, textarea:hover, select:hover{
+    background: lime;
+    
+}

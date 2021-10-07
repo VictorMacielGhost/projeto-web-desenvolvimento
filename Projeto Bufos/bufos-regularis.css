@@ -1,0 +1,56 @@
+/*Limpar padroes*/
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.texto{
+    font-family:arial,helvetica;
+    font-size: larger;
+}
+#cabecalho{
+    background-color: chartreuse;
+    text-align: center;
+    padding: 20px;
+}
+
+#verde{
+    color: forestgreen;
+}
+
+#conteudo-principal{
+    margin: 70px;
+    margin-top: 10px;
+    padding: 42px;
+}
+
+#Destaque{
+    text-align: center;
+    background-color: rgb(255, 52, 52);
+    margin-bottom: 10px;
+}
+
+#links a{
+    color: rgb(1, 185, 1);
+    margin-left: 5%;
+    font-size: 0.9em;
+}
+
+#links a:hover{
+    text-decoration: underline;
+}
+
+#background{
+    background-color: rgb(231, 231, 231);
+}
+
+#siga-nos{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 0.8em;
+    padding: 1px;
+    /*background-color: rgb(255, 255, 230);*/
+    margin: 40%;
+    padding: 1%;
+}
